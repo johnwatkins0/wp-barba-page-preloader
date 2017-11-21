@@ -1,0 +1,33 @@
+{
+  "name": "wp-barba-page-preloader",
+  "version": "1.0.0-alpha",
+  "description": "Barba.js wrapper for WordPress. Prefetches pages for faster load times.",
+  "main": "src/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwatkins0/wp-barba-page-preloader.git"
+  },
+  "keywords": ["wordpress", "barba.js"],
+  "author": "John Watkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwatkins0/wp-barba-page-preloader/issues"
+  },
+  "homepage": "https://github.com/johnwatkins0/wp-barba-page-preloader#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-johnwatkins0": "^1.0.6",
+    "webpack": "^3.8.1"
+  },
+  "eslintConfig": {
+    "extends": "johnwatkins0"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "dependencies": {
+    "barba.js": "^1.0.0"
+  }
+}
